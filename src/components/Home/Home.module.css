@@ -1,0 +1,36 @@
+.home {
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-left: 100px;
+  }
+  
+  .movieLink {
+    color: black;
+    text-decoration: none;
+    
+  }
+  
+  .moviePoster {
+    position: absolute;
+    width: 200px;
+    z-index: 1;
+    opacity: 0;
+    transition: left 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    margin-left: 600px;
+  }
+  
+  .movieItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .movieItem:hover .moviePoster {
+    left: 0;
+    opacity: 1;
+  }
+  h3 {
+    margin-top: 0px;
+      margin-bottom: 0px;
+  }
